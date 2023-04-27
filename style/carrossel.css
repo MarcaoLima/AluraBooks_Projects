@@ -8,6 +8,15 @@
     padding: 1em 0 0.5em 0;
 }
 
+.slider-prev {
+    position: absolute;
+}
+
+.slider-prev:hover {
+    z-index: 1;
+
+}
+
 .swiper-slide img {
     width: 100%;
 }
@@ -15,6 +24,7 @@
 .swiper-button-prev,
 .swiper-button-next {
     display: none;
+    z-index: 1;
 }
 
 .swiper-pagination {
